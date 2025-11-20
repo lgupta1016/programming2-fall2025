@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Name Generator</title>
+  <script src="script.js"></script>
+</head>
+<body>
+    <h1>Name Generator</h1>
+    
+    <label for="month">Enter the month you were born (1-12):</label>
+    <input type="number" id="month" min="1" max="12" />
+    <br>
+    <br>
+    
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age" min="1" max="120" />
+    
+    <br>
+    <br>
+
+    <label for="item">Select your favorite item:</label>
+    <select id="item">
+      <option value="">-- Choose an item --</option>
+      <option value="book">Book</option>
+      <option value="coffee">Coffee</option>
+      <option value="music">Music</option>
+      <option value="star">Star</option>
+      <option value="ocean">Ocean</option>
+    </select>
+    
+    <br>
+    <br>
+
+
+    <button onclick="generateName()">Generate Name</button>
+    
+    <p id="result"></p>
+    
+
+</body>
+</html>

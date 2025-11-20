@@ -41,6 +41,7 @@ img {
 .container{
   display: flex;
   gap: 52px;
+  flex-wrap:wrap;
 }
 
 .images{

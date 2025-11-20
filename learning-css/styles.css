@@ -1,0 +1,19 @@
+h1 {
+	color: aliceblue;
+	font-family: papyrus;
+}
+
+#ingredients {
+	background-color: orangered;
+	color: ghostwhite;
+}
+
+.header {
+	background-color: aliceblue;
+	color: deeppink;}
+
+body {
+	background-image: url("https://hips.hearstapps.com/hmg-prod/images/gettyimages-180680638-676f621f720bc.jpg?crop=1xw:0.84375xh;0,0.118xh&resize=1200:*");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

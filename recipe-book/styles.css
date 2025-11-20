@@ -1,0 +1,44 @@
+*{
+	background-color: dimgrey;
+	color: whitesmoke;
+	margin: 10px;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+	border: 2px white solid;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: blue;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+
+h1{
+	border: 2px white solid;
+	background-color: blue;
+}
+h4{
+	border: 2px white solid;
+	background-color: blue;
+}
+
+img{
+	border: 5px white dotted;
+	display: inline-block;
+	height: 500px;
+	width: auto;
+}
+
+.first{
+	font-family: fantasy;
+}
+
+#header1{
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 50px;
+}
