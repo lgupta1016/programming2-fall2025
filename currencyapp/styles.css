@@ -1,0 +1,27 @@
+
+
+h1 {
+    color: darkblue;
+}
+
+
+button:hover {
+    background-color: darkgreen;
+}
+
+div {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s;
+}
+
+
+}
+body.dark {
+    background-color: lightblue;
+}
+
+     
+ 

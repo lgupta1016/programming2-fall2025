@@ -19,5 +19,8 @@ document.getElementById("CHF").innerText= swissfranc + " Swiss Dollars"
 const japaneseyen= 149.50 * currency;
 document.getElementById("JPY").innerText= japaneseyen + " Yen"
 
+const audio = new Audio('cha-ching-7053.mp3');
+    audio.play();
 
 }
+
