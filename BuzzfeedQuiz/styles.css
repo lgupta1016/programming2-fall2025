@@ -1,0 +1,99 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 36px;
+    width: 100%;
+}
+
+h3 {
+    color: blueviolet;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 16px;
+}
+
+label:hover {
+    color: blue;
+}
+
+button {
+    width: 100%;
+    max-width: 700px;
+    padding: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: slateblue;
+}
+
+.vacationspot {
+    display: none;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.vacationspot h2 {
+    color: blueviolet;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.vacationspot img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: block;
+}
+
+.vacationspot p {
+    text-align: left;
+    color: black;
+    font-size: 17px;
+}
+}
